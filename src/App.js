@@ -8,6 +8,8 @@ import Signup from './pages/Signup';
 
 import NavBar from './components/NavBar';
 
+export const fetch_URL = process.env.REACT_APP_URL
+
 function App() {
   const { user } = useAuthContext()
   return (
